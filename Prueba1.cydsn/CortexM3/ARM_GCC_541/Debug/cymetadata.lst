@@ -1,0 +1,1544 @@
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 1004
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 03       		.byte	3
+  34 0005 65       		.byte	101
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 5B       		.byte	91
+  38 0009 08       		.byte	8
+  39 000a 01       		.byte	1
+  40 000b 40       		.byte	64
+  41 000c 36       		.byte	54
+  42 000d 09       		.byte	9
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 01       		.byte	1
+  46 0011 15       		.byte	21
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 57       		.byte	87
+  50 0015 18       		.byte	24
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 47       		.byte	71
+  54 0019 19       		.byte	25
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 36       		.byte	54
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 2
+
+
+  58 001d 1A       		.byte	26
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 43       		.byte	67
+  62 0021 1B       		.byte	27
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 02       		.byte	2
+  66 0025 40       		.byte	64
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 01       		.byte	1
+  70 0029 41       		.byte	65
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 01       		.byte	1
+  74 002d 42       		.byte	66
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 01       		.byte	1
+  78 0031 43       		.byte	67
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 01       		.byte	1
+  82 0035 48       		.byte	72
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 03       		.byte	3
+  86 0039 49       		.byte	73
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 05       		.byte	5
+  90 003d 4C       		.byte	76
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 04       		.byte	4
+  94 0041 4D       		.byte	77
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 04       		.byte	4
+  98 0045 50       		.byte	80
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 01       		.byte	1
+ 102 0049 51       		.byte	81
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 08       		.byte	8
+ 106 004d 40       		.byte	64
+ 107 004e 0C       		.byte	12
+ 108 004f 80       		.byte	-128
+ 109 0050 89       		.byte	-119
+ 110 0051 0F       		.byte	15
+ 111 0052 8A       		.byte	-118
+ 112 0053 38       		.byte	56
+ 113 0054 8B       		.byte	-117
+ 114 0055 72       		.byte	114
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 3
+
+
+ 115 0056 03       		.byte	3
+ 116 0057 08       		.byte	8
+ 117 0058 07       		.byte	7
+ 118 0059 01       		.byte	1
+ 119 005a 09       		.byte	9
+ 120 005b 07       		.byte	7
+ 121 005c 0D       		.byte	13
+ 122 005d 06       		.byte	6
+ 123 005e 0F       		.byte	15
+ 124 005f 01       		.byte	1
+ 125 0060 11       		.byte	17
+ 126 0061 07       		.byte	7
+ 127 0062 15       		.byte	21
+ 128 0063 10       		.byte	16
+ 129 0064 19       		.byte	25
+ 130 0065 06       		.byte	6
+ 131 0066 1D       		.byte	29
+ 132 0067 04       		.byte	4
+ 133 0068 21       		.byte	33
+ 134 0069 01       		.byte	1
+ 135 006a 23       		.byte	35
+ 136 006b 06       		.byte	6
+ 137 006c 25       		.byte	37
+ 138 006d 02       		.byte	2
+ 139 006e 29       		.byte	41
+ 140 006f 18       		.byte	24
+ 141 0070 2D       		.byte	45
+ 142 0071 18       		.byte	24
+ 143 0072 31       		.byte	49
+ 144 0073 18       		.byte	24
+ 145 0074 35       		.byte	53
+ 146 0075 07       		.byte	7
+ 147 0076 39       		.byte	57
+ 148 0077 02       		.byte	2
+ 149 0078 3A       		.byte	58
+ 150 0079 02       		.byte	2
+ 151 007a 3F       		.byte	63
+ 152 007b 01       		.byte	1
+ 153 007c 40       		.byte	64
+ 154 007d 01       		.byte	1
+ 155 007e 46       		.byte	70
+ 156 007f 04       		.byte	4
+ 157 0080 49       		.byte	73
+ 158 0081 FF       		.byte	-1
+ 159 0082 4A       		.byte	74
+ 160 0083 07       		.byte	7
+ 161 0084 4B       		.byte	75
+ 162 0085 FF       		.byte	-1
+ 163 0086 4C       		.byte	76
+ 164 0087 40       		.byte	64
+ 165 0088 4D       		.byte	77
+ 166 0089 20       		.byte	32
+ 167 008a 4E       		.byte	78
+ 168 008b F0       		.byte	-16
+ 169 008c 4F       		.byte	79
+ 170 008d 05       		.byte	5
+ 171 008e 50       		.byte	80
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 4
+
+
+ 172 008f 08       		.byte	8
+ 173 0090 58       		.byte	88
+ 174 0091 04       		.byte	4
+ 175 0092 59       		.byte	89
+ 176 0093 04       		.byte	4
+ 177 0094 5A       		.byte	90
+ 178 0095 04       		.byte	4
+ 179 0096 5F       		.byte	95
+ 180 0097 01       		.byte	1
+ 181 0098 60       		.byte	96
+ 182 0099 40       		.byte	64
+ 183 009a 61       		.byte	97
+ 184 009b A8       		.byte	-88
+ 185 009c 62       		.byte	98
+ 186 009d 40       		.byte	64
+ 187 009e 63       		.byte	99
+ 188 009f 20       		.byte	32
+ 189 00a0 82       		.byte	-126
+ 190 00a1 20       		.byte	32
+ 191 00a2 84       		.byte	-124
+ 192 00a3 0C       		.byte	12
+ 193 00a4 85       		.byte	-123
+ 194 00a5 21       		.byte	33
+ 195 00a6 86       		.byte	-122
+ 196 00a7 71       		.byte	113
+ 197 00a8 87       		.byte	-121
+ 198 00a9 0E       		.byte	14
+ 199 00aa 8B       		.byte	-117
+ 200 00ab 10       		.byte	16
+ 201 00ac 8E       		.byte	-114
+ 202 00ad 03       		.byte	3
+ 203 00ae 8F       		.byte	-113
+ 204 00af 10       		.byte	16
+ 205 00b0 90       		.byte	-112
+ 206 00b1 09       		.byte	9
+ 207 00b2 92       		.byte	-110
+ 208 00b3 D0       		.byte	-48
+ 209 00b4 93       		.byte	-109
+ 210 00b5 08       		.byte	8
+ 211 00b6 94       		.byte	-108
+ 212 00b7 10       		.byte	16
+ 213 00b8 95       		.byte	-107
+ 214 00b9 0C       		.byte	12
+ 215 00ba 96       		.byte	-106
+ 216 00bb AC       		.byte	-84
+ 217 00bc 97       		.byte	-105
+ 218 00bd 23       		.byte	35
+ 219 00be 99       		.byte	-103
+ 220 00bf 10       		.byte	16
+ 221 00c0 9C       		.byte	-100
+ 222 00c1 14       		.byte	20
+ 223 00c2 9F       		.byte	-97
+ 224 00c3 0C       		.byte	12
+ 225 00c4 A1       		.byte	-95
+ 226 00c5 10       		.byte	16
+ 227 00c6 A5       		.byte	-91
+ 228 00c7 21       		.byte	33
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 5
+
+
+ 229 00c8 A7       		.byte	-89
+ 230 00c9 06       		.byte	6
+ 231 00ca A8       		.byte	-88
+ 232 00cb DC       		.byte	-36
+ 233 00cc AA       		.byte	-86
+ 234 00cd 22       		.byte	34
+ 235 00ce AC       		.byte	-84
+ 236 00cf 10       		.byte	16
+ 237 00d0 AD       		.byte	-83
+ 238 00d1 40       		.byte	64
+ 239 00d2 AE       		.byte	-82
+ 240 00d3 40       		.byte	64
+ 241 00d4 AF       		.byte	-81
+ 242 00d5 03       		.byte	3
+ 243 00d6 B0       		.byte	-80
+ 244 00d7 1F       		.byte	31
+ 245 00d8 B1       		.byte	-79
+ 246 00d9 10       		.byte	16
+ 247 00da B3       		.byte	-77
+ 248 00db 0F       		.byte	15
+ 249 00dc B4       		.byte	-76
+ 250 00dd E0       		.byte	-32
+ 251 00de B7       		.byte	-73
+ 252 00df 60       		.byte	96
+ 253 00e0 B9       		.byte	-71
+ 254 00e1 82       		.byte	-126
+ 255 00e2 BA       		.byte	-70
+ 256 00e3 20       		.byte	32
+ 257 00e4 BB       		.byte	-69
+ 258 00e5 08       		.byte	8
+ 259 00e6 C0       		.byte	-64
+ 260 00e7 35       		.byte	53
+ 261 00e8 C1       		.byte	-63
+ 262 00e9 06       		.byte	6
+ 263 00ea C5       		.byte	-59
+ 264 00eb 0C       		.byte	12
+ 265 00ec C6       		.byte	-58
+ 266 00ed 0B       		.byte	11
+ 267 00ee C7       		.byte	-57
+ 268 00ef 0E       		.byte	14
+ 269 00f0 C8       		.byte	-56
+ 270 00f1 15       		.byte	21
+ 271 00f2 C9       		.byte	-55
+ 272 00f3 FF       		.byte	-1
+ 273 00f4 CA       		.byte	-54
+ 274 00f5 FF       		.byte	-1
+ 275 00f6 CB       		.byte	-53
+ 276 00f7 FF       		.byte	-1
+ 277 00f8 CE       		.byte	-50
+ 278 00f9 F0       		.byte	-16
+ 279 00fa CF       		.byte	-49
+ 280 00fb 44       		.byte	68
+ 281 00fc D0       		.byte	-48
+ 282 00fd 0C       		.byte	12
+ 283 00fe D8       		.byte	-40
+ 284 00ff 04       		.byte	4
+ 285 0100 D9       		.byte	-39
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 6
+
+
+ 286 0101 04       		.byte	4
+ 287 0102 DA       		.byte	-38
+ 288 0103 04       		.byte	4
+ 289 0104 DF       		.byte	-33
+ 290 0105 01       		.byte	1
+ 291 0106 E6       		.byte	-26
+ 292 0107 C0       		.byte	-64
+ 293 0108 EA       		.byte	-22
+ 294 0109 40       		.byte	64
+ 295 010a EB       		.byte	-21
+ 296 010b 02       		.byte	2
+ 297 010c 00       		.byte	0
+ 298 010d 06       		.byte	6
+ 299 010e 03       		.byte	3
+ 300 010f 02       		.byte	2
+ 301 0110 09       		.byte	9
+ 302 0111 80       		.byte	-128
+ 303 0112 0A       		.byte	10
+ 304 0113 A0       		.byte	-96
+ 305 0114 10       		.byte	16
+ 306 0115 01       		.byte	1
+ 307 0116 11       		.byte	17
+ 308 0117 80       		.byte	-128
+ 309 0118 12       		.byte	18
+ 310 0119 08       		.byte	8
+ 311 011a 15       		.byte	21
+ 312 011b 30       		.byte	48
+ 313 011c 18       		.byte	24
+ 314 011d 04       		.byte	4
+ 315 011e 19       		.byte	25
+ 316 011f 20       		.byte	32
+ 317 0120 1B       		.byte	27
+ 318 0121 02       		.byte	2
+ 319 0122 1C       		.byte	28
+ 320 0123 40       		.byte	64
+ 321 0124 1D       		.byte	29
+ 322 0125 01       		.byte	1
+ 323 0126 22       		.byte	34
+ 324 0127 48       		.byte	72
+ 325 0128 23       		.byte	35
+ 326 0129 40       		.byte	64
+ 327 012a 25       		.byte	37
+ 328 012b 10       		.byte	16
+ 329 012c 27       		.byte	39
+ 330 012d 40       		.byte	64
+ 331 012e 28       		.byte	40
+ 332 012f 60       		.byte	96
+ 333 0130 2B       		.byte	43
+ 334 0131 01       		.byte	1
+ 335 0132 2C       		.byte	44
+ 336 0133 60       		.byte	96
+ 337 0134 2D       		.byte	45
+ 338 0135 60       		.byte	96
+ 339 0136 30       		.byte	48
+ 340 0137 01       		.byte	1
+ 341 0138 31       		.byte	49
+ 342 0139 10       		.byte	16
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 7
+
+
+ 343 013a 32       		.byte	50
+ 344 013b 48       		.byte	72
+ 345 013c 35       		.byte	53
+ 346 013d 81       		.byte	-127
+ 347 013e 36       		.byte	54
+ 348 013f 08       		.byte	8
+ 349 0140 37       		.byte	55
+ 350 0141 10       		.byte	16
+ 351 0142 38       		.byte	56
+ 352 0143 04       		.byte	4
+ 353 0144 39       		.byte	57
+ 354 0145 20       		.byte	32
+ 355 0146 3A       		.byte	58
+ 356 0147 80       		.byte	-128
+ 357 0148 3D       		.byte	61
+ 358 0149 18       		.byte	24
+ 359 014a 3E       		.byte	62
+ 360 014b 80       		.byte	-128
+ 361 014c 3F       		.byte	63
+ 362 014d 02       		.byte	2
+ 363 014e 40       		.byte	64
+ 364 014f 20       		.byte	32
+ 365 0150 47       		.byte	71
+ 366 0151 40       		.byte	64
+ 367 0152 48       		.byte	72
+ 368 0153 01       		.byte	1
+ 369 0154 49       		.byte	73
+ 370 0155 20       		.byte	32
+ 371 0156 4B       		.byte	75
+ 372 0157 04       		.byte	4
+ 373 0158 51       		.byte	81
+ 374 0159 80       		.byte	-128
+ 375 015a 53       		.byte	83
+ 376 015b 04       		.byte	4
+ 377 015c 54       		.byte	84
+ 378 015d 01       		.byte	1
+ 379 015e 55       		.byte	85
+ 380 015f 40       		.byte	64
+ 381 0160 57       		.byte	87
+ 382 0161 01       		.byte	1
+ 383 0162 8C       		.byte	-116
+ 384 0163 20       		.byte	32
+ 385 0164 8D       		.byte	-115
+ 386 0165 40       		.byte	64
+ 387 0166 8E       		.byte	-114
+ 388 0167 10       		.byte	16
+ 389 0168 C0       		.byte	-64
+ 390 0169 0D       		.byte	13
+ 391 016a C2       		.byte	-62
+ 392 016b 0D       		.byte	13
+ 393 016c C4       		.byte	-60
+ 394 016d 03       		.byte	3
+ 395 016e CA       		.byte	-54
+ 396 016f FB       		.byte	-5
+ 397 0170 CC       		.byte	-52
+ 398 0171 FF       		.byte	-1
+ 399 0172 CE       		.byte	-50
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 8
+
+
+ 400 0173 FE       		.byte	-2
+ 401 0174 D0       		.byte	-48
+ 402 0175 12       		.byte	18
+ 403 0176 D2       		.byte	-46
+ 404 0177 0C       		.byte	12
+ 405 0178 E6       		.byte	-26
+ 406 0179 02       		.byte	2
+ 407 017a 04       		.byte	4
+ 408 017b 09       		.byte	9
+ 409 017c 06       		.byte	6
+ 410 017d 46       		.byte	70
+ 411 017e 08       		.byte	8
+ 412 017f 1F       		.byte	31
+ 413 0180 0B       		.byte	11
+ 414 0181 01       		.byte	1
+ 415 0182 0F       		.byte	15
+ 416 0183 01       		.byte	1
+ 417 0184 14       		.byte	20
+ 418 0185 04       		.byte	4
+ 419 0186 16       		.byte	22
+ 420 0187 38       		.byte	56
+ 421 0188 18       		.byte	24
+ 422 0189 12       		.byte	18
+ 423 018a 1A       		.byte	26
+ 424 018b 45       		.byte	69
+ 425 018c 28       		.byte	40
+ 426 018d 1F       		.byte	31
+ 427 018e 32       		.byte	50
+ 428 018f 1C       		.byte	28
+ 429 0190 34       		.byte	52
+ 430 0191 03       		.byte	3
+ 431 0192 36       		.byte	54
+ 432 0193 60       		.byte	96
+ 433 0194 37       		.byte	55
+ 434 0195 01       		.byte	1
+ 435 0196 3E       		.byte	62
+ 436 0197 40       		.byte	64
+ 437 0198 3F       		.byte	63
+ 438 0199 40       		.byte	64
+ 439 019a 40       		.byte	64
+ 440 019b 43       		.byte	67
+ 441 019c 41       		.byte	65
+ 442 019d 05       		.byte	5
+ 443 019e 42       		.byte	66
+ 444 019f 02       		.byte	2
+ 445 01a0 44       		.byte	68
+ 446 01a1 01       		.byte	1
+ 447 01a2 46       		.byte	70
+ 448 01a3 0C       		.byte	12
+ 449 01a4 47       		.byte	71
+ 450 01a5 E0       		.byte	-32
+ 451 01a6 48       		.byte	72
+ 452 01a7 24       		.byte	36
+ 453 01a8 49       		.byte	73
+ 454 01a9 FF       		.byte	-1
+ 455 01aa 4A       		.byte	74
+ 456 01ab FF       		.byte	-1
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 9
+
+
+ 457 01ac 4B       		.byte	75
+ 458 01ad FF       		.byte	-1
+ 459 01ae 4C       		.byte	76
+ 460 01af 62       		.byte	98
+ 461 01b0 4D       		.byte	77
+ 462 01b1 A0       		.byte	-96
+ 463 01b2 4E       		.byte	78
+ 464 01b3 F0       		.byte	-16
+ 465 01b4 4F       		.byte	79
+ 466 01b5 41       		.byte	65
+ 467 01b6 50       		.byte	80
+ 468 01b7 0C       		.byte	12
+ 469 01b8 58       		.byte	88
+ 470 01b9 04       		.byte	4
+ 471 01ba 59       		.byte	89
+ 472 01bb 04       		.byte	4
+ 473 01bc 5A       		.byte	90
+ 474 01bd 04       		.byte	4
+ 475 01be 5F       		.byte	95
+ 476 01bf 01       		.byte	1
+ 477 01c0 66       		.byte	102
+ 478 01c1 40       		.byte	64
+ 479 01c2 67       		.byte	103
+ 480 01c3 02       		.byte	2
+ 481 01c4 69       		.byte	105
+ 482 01c5 10       		.byte	16
+ 483 01c6 6A       		.byte	106
+ 484 01c7 30       		.byte	48
+ 485 01c8 6B       		.byte	107
+ 486 01c9 10       		.byte	16
+ 487 01ca 6D       		.byte	109
+ 488 01cb 10       		.byte	16
+ 489 01cc 6E       		.byte	110
+ 490 01cd 10       		.byte	16
+ 491 01ce 6F       		.byte	111
+ 492 01cf 12       		.byte	18
+ 493 01d0 81       		.byte	-127
+ 494 01d1 3E       		.byte	62
+ 495 01d2 82       		.byte	-126
+ 496 01d3 15       		.byte	21
+ 497 01d4 85       		.byte	-123
+ 498 01d5 40       		.byte	64
+ 499 01d6 88       		.byte	-120
+ 500 01d7 13       		.byte	19
+ 501 01d8 89       		.byte	-119
+ 502 01d9 38       		.byte	56
+ 503 01da 8A       		.byte	-118
+ 504 01db 04       		.byte	4
+ 505 01dc 8B       		.byte	-117
+ 506 01dd 04       		.byte	4
+ 507 01de 8D       		.byte	-115
+ 508 01df 38       		.byte	56
+ 509 01e0 8E       		.byte	-114
+ 510 01e1 20       		.byte	32
+ 511 01e2 8F       		.byte	-113
+ 512 01e3 02       		.byte	2
+ 513 01e4 92       		.byte	-110
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 10
+
+
+ 514 01e5 08       		.byte	8
+ 515 01e6 93       		.byte	-109
+ 516 01e7 08       		.byte	8
+ 517 01e8 94       		.byte	-108
+ 518 01e9 13       		.byte	19
+ 519 01ea 96       		.byte	-106
+ 520 01eb 0C       		.byte	12
+ 521 01ec 97       		.byte	-105
+ 522 01ed 06       		.byte	6
+ 523 01ee 99       		.byte	-103
+ 524 01ef 10       		.byte	16
+ 525 01f0 9D       		.byte	-99
+ 526 01f1 80       		.byte	-128
+ 527 01f2 A1       		.byte	-95
+ 528 01f3 0E       		.byte	14
+ 529 01f4 A3       		.byte	-93
+ 530 01f5 30       		.byte	48
+ 531 01f6 A4       		.byte	-92
+ 532 01f7 03       		.byte	3
+ 533 01f8 A5       		.byte	-91
+ 534 01f9 08       		.byte	8
+ 535 01fa A6       		.byte	-90
+ 536 01fb 14       		.byte	20
+ 537 01fc A7       		.byte	-89
+ 538 01fd 01       		.byte	1
+ 539 01fe A8       		.byte	-88
+ 540 01ff 0A       		.byte	10
+ 541 0200 A9       		.byte	-87
+ 542 0201 30       		.byte	48
+ 543 0202 AA       		.byte	-86
+ 544 0203 14       		.byte	20
+ 545 0204 AD       		.byte	-83
+ 546 0205 20       		.byte	32
+ 547 0206 AE       		.byte	-82
+ 548 0207 20       		.byte	32
+ 549 0208 B0       		.byte	-80
+ 550 0209 10       		.byte	16
+ 551 020a B1       		.byte	-79
+ 552 020b 01       		.byte	1
+ 553 020c B2       		.byte	-78
+ 554 020d 0F       		.byte	15
+ 555 020e B3       		.byte	-77
+ 556 020f 40       		.byte	64
+ 557 0210 B4       		.byte	-76
+ 558 0211 20       		.byte	32
+ 559 0212 B5       		.byte	-75
+ 560 0213 3E       		.byte	62
+ 561 0214 B7       		.byte	-73
+ 562 0215 80       		.byte	-128
+ 563 0216 BA       		.byte	-70
+ 564 0217 08       		.byte	8
+ 565 0218 BB       		.byte	-69
+ 566 0219 20       		.byte	32
+ 567 021a BE       		.byte	-66
+ 568 021b 11       		.byte	17
+ 569 021c BF       		.byte	-65
+ 570 021d 44       		.byte	68
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 11
+
+
+ 571 021e D4       		.byte	-44
+ 572 021f 01       		.byte	1
+ 573 0220 D8       		.byte	-40
+ 574 0221 04       		.byte	4
+ 575 0222 D9       		.byte	-39
+ 576 0223 04       		.byte	4
+ 577 0224 DB       		.byte	-37
+ 578 0225 04       		.byte	4
+ 579 0226 DF       		.byte	-33
+ 580 0227 01       		.byte	1
+ 581 0228 00       		.byte	0
+ 582 0229 02       		.byte	2
+ 583 022a 01       		.byte	1
+ 584 022b 20       		.byte	32
+ 585 022c 02       		.byte	2
+ 586 022d 01       		.byte	1
+ 587 022e 04       		.byte	4
+ 588 022f 20       		.byte	32
+ 589 0230 05       		.byte	5
+ 590 0231 08       		.byte	8
+ 591 0232 0A       		.byte	10
+ 592 0233 A0       		.byte	-96
+ 593 0234 0C       		.byte	12
+ 594 0235 10       		.byte	16
+ 595 0236 0E       		.byte	14
+ 596 0237 24       		.byte	36
+ 597 0238 12       		.byte	18
+ 598 0239 08       		.byte	8
+ 599 023a 13       		.byte	19
+ 600 023b 44       		.byte	68
+ 601 023c 15       		.byte	21
+ 602 023d 10       		.byte	16
+ 603 023e 18       		.byte	24
+ 604 023f 04       		.byte	4
+ 605 0240 1A       		.byte	26
+ 606 0241 60       		.byte	96
+ 607 0242 1D       		.byte	29
+ 608 0243 80       		.byte	-128
+ 609 0244 1E       		.byte	30
+ 610 0245 24       		.byte	36
+ 611 0246 21       		.byte	33
+ 612 0247 50       		.byte	80
+ 613 0248 22       		.byte	34
+ 614 0249 05       		.byte	5
+ 615 024a 26       		.byte	38
+ 616 024b 80       		.byte	-128
+ 617 024c 28       		.byte	40
+ 618 024d 40       		.byte	64
+ 619 024e 29       		.byte	41
+ 620 024f 88       		.byte	-120
+ 621 0250 2A       		.byte	42
+ 622 0251 10       		.byte	16
+ 623 0252 30       		.byte	48
+ 624 0253 A0       		.byte	-96
+ 625 0254 32       		.byte	50
+ 626 0255 01       		.byte	1
+ 627 0256 33       		.byte	51
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 12
+
+
+ 628 0257 04       		.byte	4
+ 629 0258 38       		.byte	56
+ 630 0259 02       		.byte	2
+ 631 025a 39       		.byte	57
+ 632 025b 24       		.byte	36
+ 633 025c 3A       		.byte	58
+ 634 025d 80       		.byte	-128
+ 635 025e 3B       		.byte	59
+ 636 025f 08       		.byte	8
+ 637 0260 3D       		.byte	61
+ 638 0261 20       		.byte	32
+ 639 0262 3F       		.byte	63
+ 640 0263 80       		.byte	-128
+ 641 0264 44       		.byte	68
+ 642 0265 40       		.byte	64
+ 643 0266 45       		.byte	69
+ 644 0267 94       		.byte	-108
+ 645 0268 47       		.byte	71
+ 646 0269 04       		.byte	4
+ 647 026a 4C       		.byte	76
+ 648 026b 01       		.byte	1
+ 649 026c 4D       		.byte	77
+ 650 026d 40       		.byte	64
+ 651 026e 56       		.byte	86
+ 652 026f 01       		.byte	1
+ 653 0270 57       		.byte	87
+ 654 0271 40       		.byte	64
+ 655 0272 58       		.byte	88
+ 656 0273 02       		.byte	2
+ 657 0274 59       		.byte	89
+ 658 0275 10       		.byte	16
+ 659 0276 5A       		.byte	90
+ 660 0277 48       		.byte	72
+ 661 0278 5C       		.byte	92
+ 662 0279 40       		.byte	64
+ 663 027a 5D       		.byte	93
+ 664 027b 40       		.byte	64
+ 665 027c 61       		.byte	97
+ 666 027d 10       		.byte	16
+ 667 027e 63       		.byte	99
+ 668 027f 04       		.byte	4
+ 669 0280 90       		.byte	-112
+ 670 0281 40       		.byte	64
+ 671 0282 92       		.byte	-110
+ 672 0283 80       		.byte	-128
+ 673 0284 93       		.byte	-109
+ 674 0285 4C       		.byte	76
+ 675 0286 95       		.byte	-107
+ 676 0287 20       		.byte	32
+ 677 0288 96       		.byte	-106
+ 678 0289 20       		.byte	32
+ 679 028a 99       		.byte	-103
+ 680 028b 20       		.byte	32
+ 681 028c 9C       		.byte	-100
+ 682 028d 40       		.byte	64
+ 683 028e 9D       		.byte	-99
+ 684 028f 80       		.byte	-128
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 13
+
+
+ 685 0290 9E       		.byte	-98
+ 686 0291 80       		.byte	-128
+ 687 0292 9F       		.byte	-97
+ 688 0293 10       		.byte	16
+ 689 0294 A0       		.byte	-96
+ 690 0295 01       		.byte	1
+ 691 0296 A1       		.byte	-95
+ 692 0297 10       		.byte	16
+ 693 0298 A2       		.byte	-94
+ 694 0299 08       		.byte	8
+ 695 029a A3       		.byte	-93
+ 696 029b 02       		.byte	2
+ 697 029c A4       		.byte	-92
+ 698 029d 20       		.byte	32
+ 699 029e A5       		.byte	-91
+ 700 029f 04       		.byte	4
+ 701 02a0 B4       		.byte	-76
+ 702 02a1 40       		.byte	64
+ 703 02a2 B5       		.byte	-75
+ 704 02a3 10       		.byte	16
+ 705 02a4 C0       		.byte	-64
+ 706 02a5 6B       		.byte	107
+ 707 02a6 C2       		.byte	-62
+ 708 02a7 6C       		.byte	108
+ 709 02a8 C4       		.byte	-60
+ 710 02a9 47       		.byte	71
+ 711 02aa CA       		.byte	-54
+ 712 02ab 0F       		.byte	15
+ 713 02ac CC       		.byte	-52
+ 714 02ad 0F       		.byte	15
+ 715 02ae CE       		.byte	-50
+ 716 02af 3F       		.byte	63
+ 717 02b0 D0       		.byte	-48
+ 718 02b1 F0       		.byte	-16
+ 719 02b2 D2       		.byte	-46
+ 720 02b3 10       		.byte	16
+ 721 02b4 D6       		.byte	-42
+ 722 02b5 0F       		.byte	15
+ 723 02b6 00       		.byte	0
+ 724 02b7 06       		.byte	6
+ 725 02b8 02       		.byte	2
+ 726 02b9 01       		.byte	1
+ 727 02ba 04       		.byte	4
+ 728 02bb 06       		.byte	6
+ 729 02bc 0A       		.byte	10
+ 730 02bd 01       		.byte	1
+ 731 02be 0C       		.byte	12
+ 732 02bf 07       		.byte	7
+ 733 02c0 1C       		.byte	28
+ 734 02c1 01       		.byte	1
+ 735 02c2 1E       		.byte	30
+ 736 02c3 06       		.byte	6
+ 737 02c4 24       		.byte	36
+ 738 02c5 02       		.byte	2
+ 739 02c6 28       		.byte	40
+ 740 02c7 06       		.byte	6
+ 741 02c8 2A       		.byte	42
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 14
+
+
+ 742 02c9 01       		.byte	1
+ 743 02ca 2C       		.byte	44
+ 744 02cb 04       		.byte	4
+ 745 02cc 36       		.byte	54
+ 746 02cd 07       		.byte	7
+ 747 02ce 3A       		.byte	58
+ 748 02cf 80       		.byte	-128
+ 749 02d0 54       		.byte	84
+ 750 02d1 18       		.byte	24
+ 751 02d2 56       		.byte	86
+ 752 02d3 04       		.byte	4
+ 753 02d4 58       		.byte	88
+ 754 02d5 04       		.byte	4
+ 755 02d6 5B       		.byte	91
+ 756 02d7 04       		.byte	4
+ 757 02d8 5F       		.byte	95
+ 758 02d9 01       		.byte	1
+ 759 02da 80       		.byte	-128
+ 760 02db 1F       		.byte	31
+ 761 02dc 84       		.byte	-124
+ 762 02dd 0C       		.byte	12
+ 763 02de 85       		.byte	-123
+ 764 02df 01       		.byte	1
+ 765 02e0 89       		.byte	-119
+ 766 02e1 01       		.byte	1
+ 767 02e2 8A       		.byte	-118
+ 768 02e3 03       		.byte	3
+ 769 02e4 8C       		.byte	-116
+ 770 02e5 1F       		.byte	31
+ 771 02e6 8F       		.byte	-113
+ 772 02e7 06       		.byte	6
+ 773 02e8 91       		.byte	-111
+ 774 02e9 01       		.byte	1
+ 775 02ea 94       		.byte	-108
+ 776 02eb 03       		.byte	3
+ 777 02ec 97       		.byte	-105
+ 778 02ed 06       		.byte	6
+ 779 02ee 98       		.byte	-104
+ 780 02ef 04       		.byte	4
+ 781 02f0 99       		.byte	-103
+ 782 02f1 06       		.byte	6
+ 783 02f2 9C       		.byte	-100
+ 784 02f3 13       		.byte	19
+ 785 02f4 9D       		.byte	-99
+ 786 02f5 02       		.byte	2
+ 787 02f6 9E       		.byte	-98
+ 788 02f7 0C       		.byte	12
+ 789 02f8 A0       		.byte	-96
+ 790 02f9 01       		.byte	1
+ 791 02fa A1       		.byte	-95
+ 792 02fb 06       		.byte	6
+ 793 02fc A4       		.byte	-92
+ 794 02fd 02       		.byte	2
+ 795 02fe A7       		.byte	-89
+ 796 02ff 06       		.byte	6
+ 797 0300 A8       		.byte	-88
+ 798 0301 1C       		.byte	28
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 15
+
+
+ 799 0302 A9       		.byte	-87
+ 800 0303 04       		.byte	4
+ 801 0304 AA       		.byte	-86
+ 802 0305 03       		.byte	3
+ 803 0306 AC       		.byte	-84
+ 804 0307 08       		.byte	8
+ 805 0308 AD       		.byte	-83
+ 806 0309 06       		.byte	6
+ 807 030a B2       		.byte	-78
+ 808 030b 10       		.byte	16
+ 809 030c B5       		.byte	-75
+ 810 030d 01       		.byte	1
+ 811 030e B6       		.byte	-74
+ 812 030f 0F       		.byte	15
+ 813 0310 B7       		.byte	-73
+ 814 0311 06       		.byte	6
+ 815 0312 BA       		.byte	-70
+ 816 0313 80       		.byte	-128
+ 817 0314 BE       		.byte	-66
+ 818 0315 04       		.byte	4
+ 819 0316 D6       		.byte	-42
+ 820 0317 02       		.byte	2
+ 821 0318 D7       		.byte	-41
+ 822 0319 11       		.byte	17
+ 823 031a D8       		.byte	-40
+ 824 031b 04       		.byte	4
+ 825 031c D9       		.byte	-39
+ 826 031d 04       		.byte	4
+ 827 031e DB       		.byte	-37
+ 828 031f 04       		.byte	4
+ 829 0320 DF       		.byte	-33
+ 830 0321 01       		.byte	1
+ 831 0322 00       		.byte	0
+ 832 0323 41       		.byte	65
+ 833 0324 02       		.byte	2
+ 834 0325 10       		.byte	16
+ 835 0326 03       		.byte	3
+ 836 0327 04       		.byte	4
+ 837 0328 04       		.byte	4
+ 838 0329 41       		.byte	65
+ 839 032a 06       		.byte	6
+ 840 032b 80       		.byte	-128
+ 841 032c 07       		.byte	7
+ 842 032d 14       		.byte	20
+ 843 032e 08       		.byte	8
+ 844 032f 40       		.byte	64
+ 845 0330 0C       		.byte	12
+ 846 0331 60       		.byte	96
+ 847 0332 0E       		.byte	14
+ 848 0333 22       		.byte	34
+ 849 0334 10       		.byte	16
+ 850 0335 24       		.byte	36
+ 851 0336 12       		.byte	18
+ 852 0337 01       		.byte	1
+ 853 0338 14       		.byte	20
+ 854 0339 94       		.byte	-108
+ 855 033a 15       		.byte	21
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 16
+
+
+ 856 033b 20       		.byte	32
+ 857 033c 16       		.byte	22
+ 858 033d 29       		.byte	41
+ 859 033e 18       		.byte	24
+ 860 033f 01       		.byte	1
+ 861 0340 1C       		.byte	28
+ 862 0341 10       		.byte	16
+ 863 0342 1E       		.byte	30
+ 864 0343 02       		.byte	2
+ 865 0344 27       		.byte	39
+ 866 0345 06       		.byte	6
+ 867 0346 2C       		.byte	44
+ 868 0347 40       		.byte	64
+ 869 0348 2D       		.byte	45
+ 870 0349 40       		.byte	64
+ 871 034a 2E       		.byte	46
+ 872 034b 28       		.byte	40
+ 873 034c 34       		.byte	52
+ 874 034d 80       		.byte	-128
+ 875 034e 36       		.byte	54
+ 876 034f 10       		.byte	16
+ 877 0350 37       		.byte	55
+ 878 0351 05       		.byte	5
+ 879 0352 3D       		.byte	61
+ 880 0353 10       		.byte	16
+ 881 0354 3E       		.byte	62
+ 882 0355 84       		.byte	-124
+ 883 0356 5B       		.byte	91
+ 884 0357 02       		.byte	2
+ 885 0358 5C       		.byte	92
+ 886 0359 10       		.byte	16
+ 887 035a 60       		.byte	96
+ 888 035b 04       		.byte	4
+ 889 035c 62       		.byte	98
+ 890 035d 80       		.byte	-128
+ 891 035e 63       		.byte	99
+ 892 035f 40       		.byte	64
+ 893 0360 6C       		.byte	108
+ 894 0361 10       		.byte	16
+ 895 0362 6D       		.byte	109
+ 896 0363 10       		.byte	16
+ 897 0364 6E       		.byte	110
+ 898 0365 04       		.byte	4
+ 899 0366 6F       		.byte	111
+ 900 0367 01       		.byte	1
+ 901 0368 74       		.byte	116
+ 902 0369 20       		.byte	32
+ 903 036a 75       		.byte	117
+ 904 036b 80       		.byte	-128
+ 905 036c 76       		.byte	118
+ 906 036d 11       		.byte	17
+ 907 036e 77       		.byte	119
+ 908 036f 10       		.byte	16
+ 909 0370 87       		.byte	-121
+ 910 0371 40       		.byte	64
+ 911 0372 90       		.byte	-112
+ 912 0373 44       		.byte	68
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 17
+
+
+ 913 0374 91       		.byte	-111
+ 914 0375 60       		.byte	96
+ 915 0376 94       		.byte	-108
+ 916 0377 20       		.byte	32
+ 917 0378 95       		.byte	-107
+ 918 0379 10       		.byte	16
+ 919 037a 98       		.byte	-104
+ 920 037b 90       		.byte	-112
+ 921 037c 9C       		.byte	-100
+ 922 037d 40       		.byte	64
+ 923 037e 9D       		.byte	-99
+ 924 037f 80       		.byte	-128
+ 925 0380 9E       		.byte	-98
+ 926 0381 90       		.byte	-112
+ 927 0382 9F       		.byte	-97
+ 928 0383 14       		.byte	20
+ 929 0384 A2       		.byte	-94
+ 930 0385 90       		.byte	-112
+ 931 0386 A4       		.byte	-92
+ 932 0387 20       		.byte	32
+ 933 0388 A8       		.byte	-88
+ 934 0389 80       		.byte	-128
+ 935 038a A9       		.byte	-87
+ 936 038b 40       		.byte	64
+ 937 038c AB       		.byte	-85
+ 938 038d 02       		.byte	2
+ 939 038e AC       		.byte	-84
+ 940 038f 02       		.byte	2
+ 941 0390 AD       		.byte	-83
+ 942 0391 04       		.byte	4
+ 943 0392 B1       		.byte	-79
+ 944 0393 08       		.byte	8
+ 945 0394 B4       		.byte	-76
+ 946 0395 80       		.byte	-128
+ 947 0396 C0       		.byte	-64
+ 948 0397 FF       		.byte	-1
+ 949 0398 C2       		.byte	-62
+ 950 0399 E1       		.byte	-31
+ 951 039a C4       		.byte	-60
+ 952 039b F7       		.byte	-9
+ 953 039c CA       		.byte	-54
+ 954 039d F0       		.byte	-16
+ 955 039e CC       		.byte	-52
+ 956 039f F0       		.byte	-16
+ 957 03a0 CE       		.byte	-50
+ 958 03a1 70       		.byte	112
+ 959 03a2 D6       		.byte	-42
+ 960 03a3 21       		.byte	33
+ 961 03a4 D8       		.byte	-40
+ 962 03a5 0D       		.byte	13
+ 963 03a6 E8       		.byte	-24
+ 964 03a7 01       		.byte	1
+ 965 03a8 32       		.byte	50
+ 966 03a9 20       		.byte	32
+ 967 03aa CC       		.byte	-52
+ 968 03ab 10       		.byte	16
+ 969 03ac A6       		.byte	-90
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 18
+
+
+ 970 03ad 20       		.byte	32
+ 971 03ae A6       		.byte	-90
+ 972 03af 20       		.byte	32
+ 973 03b0 A6       		.byte	-90
+ 974 03b1 20       		.byte	32
+ 975 03b2 A6       		.byte	-90
+ 976 03b3 20       		.byte	32
+ 977 03b4 86       		.byte	-122
+ 978 03b5 20       		.byte	32
+ 979 03b6 A6       		.byte	-90
+ 980 03b7 20       		.byte	32
+ 981 03b8 E6       		.byte	-26
+ 982 03b9 40       		.byte	64
+ 983 03ba 0C       		.byte	12
+ 984 03bb 40       		.byte	64
+ 985 03bc 0D       		.byte	13
+ 986 03bd 80       		.byte	-128
+ 987 03be 5F       		.byte	95
+ 988 03bf 01       		.byte	1
+ 989 03c0 C2       		.byte	-62
+ 990 03c1 01       		.byte	1
+ 991 03c2 D6       		.byte	-42
+ 992 03c3 01       		.byte	1
+ 993 03c4 AB       		.byte	-85
+ 994 03c5 01       		.byte	1
+ 995 03c6 B0       		.byte	-80
+ 996 03c7 40       		.byte	64
+ 997 03c8 B5       		.byte	-75
+ 998 03c9 80       		.byte	-128
+ 999 03ca EA       		.byte	-22
+ 1000 03cb 09       		.byte	9
+ 1001 03cc 00       		.byte	0
+ 1002 03cd 01       		.byte	1
+ 1003 03ce 0C       		.byte	12
+ 1004 03cf 01       		.byte	1
+ 1005 03d0 10       		.byte	16
+ 1006 03d1 01       		.byte	1
+ 1007 03d2 1C       		.byte	28
+ 1008 03d3 01       		.byte	1
+ 1009 03d4 00       		.byte	0
+ 1010 03d5 03       		.byte	3
+ 1011 03d6 00       		.byte	0
+ 1012 03d7 00       		.byte	0
+ 1013 03d8 40       		.byte	64
+ 1014 03d9 00       		.byte	0
+ 1015 03da 80       		.byte	-128
+ 1016 03db 4B       		.byte	75
+ 1017 03dc 4B       		.byte	75
+ 1018 03dd 00       		.byte	0
+ 1019 03de 40       		.byte	64
+ 1020 03df 00       		.byte	0
+ 1021 03e0 00       		.byte	0
+ 1022 03e1 00       		.byte	0
+ 1023 03e2 00       		.byte	0
+ 1024 03e3 00       		.byte	0
+ 1025 03e4 00       		.byte	0
+ 1026 03e5 02       		.byte	2
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 19
+
+
+ 1027 03e6 02       		.byte	2
+ 1028 03e7 00       		.byte	0
+ 1029 03e8 00       		.byte	0
+ 1030 03e9 00       		.byte	0
+ 1031 03ea 00       		.byte	0
+ 1032 03eb 00       		.byte	0
+ 1033              		.section	.cywolatch,"a",%progbits
+ 1034              		.align	2
+ 1035              		.type	cy_meta_wonvl, %object
+ 1036              		.size	cy_meta_wonvl, 4
+ 1037              	cy_meta_wonvl:
+ 1038 0000 BC       		.byte	-68
+ 1039 0001 90       		.byte	-112
+ 1040 0002 AC       		.byte	-84
+ 1041 0003 AF       		.byte	-81
+ 1042              		.section	.cycustnvl,"a",%progbits
+ 1043              		.align	2
+ 1044              		.type	cy_meta_custnvl, %object
+ 1045              		.size	cy_meta_custnvl, 4
+ 1046              	cy_meta_custnvl:
+ 1047 0000 00       		.byte	0
+ 1048 0001 00       		.byte	0
+ 1049 0002 40       		.byte	64
+ 1050 0003 05       		.byte	5
+ 1051              		.section	.cymeta,"a",%progbits
+ 1052              		.align	2
+ 1053              		.type	cy_metadata, %object
+ 1054              		.size	cy_metadata, 12
+ 1055              	cy_metadata:
+ 1056 0000 00       		.byte	0
+ 1057 0001 01       		.byte	1
+ 1058 0002 2E       		.byte	46
+ 1059 0003 16       		.byte	22
+ 1060 0004 10       		.byte	16
+ 1061 0005 69       		.byte	105
+ 1062 0006 00       		.byte	0
+ 1063 0007 01       		.byte	1
+ 1064 0008 00       		.byte	0
+ 1065 0009 00       		.byte	0
+ 1066 000a 00       		.byte	0
+ 1067 000b 00       		.byte	0
+ 1068              		.section	.cyflashprotect,"a",%progbits
+ 1069              		.align	2
+ 1070              		.type	cy_meta_flashprotect, %object
+ 1071              		.size	cy_meta_flashprotect, 256
+ 1072              	cy_meta_flashprotect:
+ 1073 0000 00000000 		.space	256
+ 1073      00000000 
+ 1073      00000000 
+ 1073      00000000 
+ 1073      00000000 
+ 1074              		.text
+ 1075              	.Letext0:
+ 1076              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1077              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1078              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 1079              		.section	.debug_info,"",%progbits
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 20
+
+
+ 1080              	.Ldebug_info0:
+ 1081 0000 31010000 		.4byte	0x131
+ 1082 0004 0400     		.2byte	0x4
+ 1083 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1084 000a 04       		.byte	0x4
+ 1085 000b 01       		.uleb128 0x1
+ 1086 000c 79000000 		.4byte	.LASF17
+ 1087 0010 0C       		.byte	0xc
+ 1088 0011 D3010000 		.4byte	.LASF18
+ 1089 0015 0A000000 		.4byte	.LASF19
+ 1090 0019 00000000 		.4byte	.Ldebug_line0
+ 1091 001d 02       		.uleb128 0x2
+ 1092 001e 01       		.byte	0x1
+ 1093 001f 06       		.byte	0x6
+ 1094 0020 C7010000 		.4byte	.LASF0
+ 1095 0024 03       		.uleb128 0x3
+ 1096 0025 00000000 		.4byte	.LASF9
+ 1097 0029 01       		.byte	0x1
+ 1098 002a 1D       		.byte	0x1d
+ 1099 002b 2F000000 		.4byte	0x2f
+ 1100 002f 02       		.uleb128 0x2
+ 1101 0030 01       		.byte	0x1
+ 1102 0031 08       		.byte	0x8
+ 1103 0032 6B000000 		.4byte	.LASF1
+ 1104 0036 02       		.uleb128 0x2
+ 1105 0037 02       		.byte	0x2
+ 1106 0038 05       		.byte	0x5
+ 1107 0039 B4010000 		.4byte	.LASF2
+ 1108 003d 02       		.uleb128 0x2
+ 1109 003e 02       		.byte	0x2
+ 1110 003f 07       		.byte	0x7
+ 1111 0040 19010000 		.4byte	.LASF3
+ 1112 0044 02       		.uleb128 0x2
+ 1113 0045 04       		.byte	0x4
+ 1114 0046 05       		.byte	0x5
+ 1115 0047 BE010000 		.4byte	.LASF4
+ 1116 004b 02       		.uleb128 0x2
+ 1117 004c 04       		.byte	0x4
+ 1118 004d 07       		.byte	0x7
+ 1119 004e 07010000 		.4byte	.LASF5
+ 1120 0052 02       		.uleb128 0x2
+ 1121 0053 08       		.byte	0x8
+ 1122 0054 05       		.byte	0x5
+ 1123 0055 A6010000 		.4byte	.LASF6
+ 1124 0059 02       		.uleb128 0x2
+ 1125 005a 08       		.byte	0x8
+ 1126 005b 07       		.byte	0x7
+ 1127 005c 5B010000 		.4byte	.LASF7
+ 1128 0060 04       		.uleb128 0x4
+ 1129 0061 04       		.byte	0x4
+ 1130 0062 05       		.byte	0x5
+ 1131 0063 696E7400 		.ascii	"int\000"
+ 1132 0067 02       		.uleb128 0x2
+ 1133 0068 04       		.byte	0x4
+ 1134 0069 07       		.byte	0x7
+ 1135 006a 4E010000 		.4byte	.LASF8
+ 1136 006e 03       		.uleb128 0x3
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 21
+
+
+ 1137 006f 72010000 		.4byte	.LASF10
+ 1138 0073 02       		.byte	0x2
+ 1139 0074 18       		.byte	0x18
+ 1140 0075 24000000 		.4byte	0x24
+ 1141 0079 05       		.uleb128 0x5
+ 1142 007a 91000000 		.4byte	0x91
+ 1143 007e 8A000000 		.4byte	0x8a
+ 1144 0082 06       		.uleb128 0x6
+ 1145 0083 8A000000 		.4byte	0x8a
+ 1146 0087 EB03     		.2byte	0x3eb
+ 1147 0089 00       		.byte	0
+ 1148 008a 02       		.uleb128 0x2
+ 1149 008b 04       		.byte	0x4
+ 1150 008c 07       		.byte	0x7
+ 1151 008d 9D010000 		.4byte	.LASF11
+ 1152 0091 07       		.uleb128 0x7
+ 1153 0092 6E000000 		.4byte	0x6e
+ 1154 0096 08       		.uleb128 0x8
+ 1155 0097 3C010000 		.4byte	.LASF12
+ 1156 009b 03       		.byte	0x3
+ 1157 009c 1F       		.byte	0x1f
+ 1158 009d A7000000 		.4byte	0xa7
+ 1159 00a1 05       		.uleb128 0x5
+ 1160 00a2 03       		.byte	0x3
+ 1161 00a3 00000000 		.4byte	cy_meta_configecc
+ 1162 00a7 07       		.uleb128 0x7
+ 1163 00a8 79000000 		.4byte	0x79
+ 1164 00ac 05       		.uleb128 0x5
+ 1165 00ad 91000000 		.4byte	0x91
+ 1166 00b1 BC000000 		.4byte	0xbc
+ 1167 00b5 09       		.uleb128 0x9
+ 1168 00b6 8A000000 		.4byte	0x8a
+ 1169 00ba 03       		.byte	0x3
+ 1170 00bb 00       		.byte	0
+ 1171 00bc 08       		.uleb128 0x8
+ 1172 00bd 2C010000 		.4byte	.LASF13
+ 1173 00c1 03       		.byte	0x3
+ 1174 00c2 AA       		.byte	0xaa
+ 1175 00c3 CD000000 		.4byte	0xcd
+ 1176 00c7 05       		.uleb128 0x5
+ 1177 00c8 03       		.byte	0x3
+ 1178 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1179 00cd 07       		.uleb128 0x7
+ 1180 00ce AC000000 		.4byte	0xac
+ 1181 00d2 08       		.uleb128 0x8
+ 1182 00d3 8F010000 		.4byte	.LASF14
+ 1183 00d7 03       		.byte	0x3
+ 1184 00d8 B8       		.byte	0xb8
+ 1185 00d9 E3000000 		.4byte	0xe3
+ 1186 00dd 05       		.uleb128 0x5
+ 1187 00de 03       		.byte	0x3
+ 1188 00df 00000000 		.4byte	cy_meta_wonvl
+ 1189 00e3 07       		.uleb128 0x7
+ 1190 00e4 AC000000 		.4byte	0xac
+ 1191 00e8 05       		.uleb128 0x5
+ 1192 00e9 91000000 		.4byte	0x91
+ 1193 00ed F8000000 		.4byte	0xf8
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 22
+
+
+ 1194 00f1 09       		.uleb128 0x9
+ 1195 00f2 8A000000 		.4byte	0x8a
+ 1196 00f6 FF       		.byte	0xff
+ 1197 00f7 00       		.byte	0
+ 1198 00f8 08       		.uleb128 0x8
+ 1199 00f9 7A010000 		.4byte	.LASF15
+ 1200 00fd 03       		.byte	0x3
+ 1201 00fe C6       		.byte	0xc6
+ 1202 00ff 09010000 		.4byte	0x109
+ 1203 0103 05       		.uleb128 0x5
+ 1204 0104 03       		.byte	0x3
+ 1205 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1206 0109 07       		.uleb128 0x7
+ 1207 010a E8000000 		.4byte	0xe8
+ 1208 010e 05       		.uleb128 0x5
+ 1209 010f 91000000 		.4byte	0x91
+ 1210 0113 1E010000 		.4byte	0x11e
+ 1211 0117 09       		.uleb128 0x9
+ 1212 0118 8A000000 		.4byte	0x8a
+ 1213 011c 0B       		.byte	0xb
+ 1214 011d 00       		.byte	0
+ 1215 011e 08       		.uleb128 0x8
+ 1216 011f 5F000000 		.4byte	.LASF16
+ 1217 0123 03       		.byte	0x3
+ 1218 0124 F3       		.byte	0xf3
+ 1219 0125 2F010000 		.4byte	0x12f
+ 1220 0129 05       		.uleb128 0x5
+ 1221 012a 03       		.byte	0x3
+ 1222 012b 00000000 		.4byte	cy_metadata
+ 1223 012f 07       		.uleb128 0x7
+ 1224 0130 0E010000 		.4byte	0x10e
+ 1225 0134 00       		.byte	0
+ 1226              		.section	.debug_abbrev,"",%progbits
+ 1227              	.Ldebug_abbrev0:
+ 1228 0000 01       		.uleb128 0x1
+ 1229 0001 11       		.uleb128 0x11
+ 1230 0002 01       		.byte	0x1
+ 1231 0003 25       		.uleb128 0x25
+ 1232 0004 0E       		.uleb128 0xe
+ 1233 0005 13       		.uleb128 0x13
+ 1234 0006 0B       		.uleb128 0xb
+ 1235 0007 03       		.uleb128 0x3
+ 1236 0008 0E       		.uleb128 0xe
+ 1237 0009 1B       		.uleb128 0x1b
+ 1238 000a 0E       		.uleb128 0xe
+ 1239 000b 10       		.uleb128 0x10
+ 1240 000c 17       		.uleb128 0x17
+ 1241 000d 00       		.byte	0
+ 1242 000e 00       		.byte	0
+ 1243 000f 02       		.uleb128 0x2
+ 1244 0010 24       		.uleb128 0x24
+ 1245 0011 00       		.byte	0
+ 1246 0012 0B       		.uleb128 0xb
+ 1247 0013 0B       		.uleb128 0xb
+ 1248 0014 3E       		.uleb128 0x3e
+ 1249 0015 0B       		.uleb128 0xb
+ 1250 0016 03       		.uleb128 0x3
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 23
+
+
+ 1251 0017 0E       		.uleb128 0xe
+ 1252 0018 00       		.byte	0
+ 1253 0019 00       		.byte	0
+ 1254 001a 03       		.uleb128 0x3
+ 1255 001b 16       		.uleb128 0x16
+ 1256 001c 00       		.byte	0
+ 1257 001d 03       		.uleb128 0x3
+ 1258 001e 0E       		.uleb128 0xe
+ 1259 001f 3A       		.uleb128 0x3a
+ 1260 0020 0B       		.uleb128 0xb
+ 1261 0021 3B       		.uleb128 0x3b
+ 1262 0022 0B       		.uleb128 0xb
+ 1263 0023 49       		.uleb128 0x49
+ 1264 0024 13       		.uleb128 0x13
+ 1265 0025 00       		.byte	0
+ 1266 0026 00       		.byte	0
+ 1267 0027 04       		.uleb128 0x4
+ 1268 0028 24       		.uleb128 0x24
+ 1269 0029 00       		.byte	0
+ 1270 002a 0B       		.uleb128 0xb
+ 1271 002b 0B       		.uleb128 0xb
+ 1272 002c 3E       		.uleb128 0x3e
+ 1273 002d 0B       		.uleb128 0xb
+ 1274 002e 03       		.uleb128 0x3
+ 1275 002f 08       		.uleb128 0x8
+ 1276 0030 00       		.byte	0
+ 1277 0031 00       		.byte	0
+ 1278 0032 05       		.uleb128 0x5
+ 1279 0033 01       		.uleb128 0x1
+ 1280 0034 01       		.byte	0x1
+ 1281 0035 49       		.uleb128 0x49
+ 1282 0036 13       		.uleb128 0x13
+ 1283 0037 01       		.uleb128 0x1
+ 1284 0038 13       		.uleb128 0x13
+ 1285 0039 00       		.byte	0
+ 1286 003a 00       		.byte	0
+ 1287 003b 06       		.uleb128 0x6
+ 1288 003c 21       		.uleb128 0x21
+ 1289 003d 00       		.byte	0
+ 1290 003e 49       		.uleb128 0x49
+ 1291 003f 13       		.uleb128 0x13
+ 1292 0040 2F       		.uleb128 0x2f
+ 1293 0041 05       		.uleb128 0x5
+ 1294 0042 00       		.byte	0
+ 1295 0043 00       		.byte	0
+ 1296 0044 07       		.uleb128 0x7
+ 1297 0045 26       		.uleb128 0x26
+ 1298 0046 00       		.byte	0
+ 1299 0047 49       		.uleb128 0x49
+ 1300 0048 13       		.uleb128 0x13
+ 1301 0049 00       		.byte	0
+ 1302 004a 00       		.byte	0
+ 1303 004b 08       		.uleb128 0x8
+ 1304 004c 34       		.uleb128 0x34
+ 1305 004d 00       		.byte	0
+ 1306 004e 03       		.uleb128 0x3
+ 1307 004f 0E       		.uleb128 0xe
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 24
+
+
+ 1308 0050 3A       		.uleb128 0x3a
+ 1309 0051 0B       		.uleb128 0xb
+ 1310 0052 3B       		.uleb128 0x3b
+ 1311 0053 0B       		.uleb128 0xb
+ 1312 0054 49       		.uleb128 0x49
+ 1313 0055 13       		.uleb128 0x13
+ 1314 0056 3F       		.uleb128 0x3f
+ 1315 0057 19       		.uleb128 0x19
+ 1316 0058 02       		.uleb128 0x2
+ 1317 0059 18       		.uleb128 0x18
+ 1318 005a 00       		.byte	0
+ 1319 005b 00       		.byte	0
+ 1320 005c 09       		.uleb128 0x9
+ 1321 005d 21       		.uleb128 0x21
+ 1322 005e 00       		.byte	0
+ 1323 005f 49       		.uleb128 0x49
+ 1324 0060 13       		.uleb128 0x13
+ 1325 0061 2F       		.uleb128 0x2f
+ 1326 0062 0B       		.uleb128 0xb
+ 1327 0063 00       		.byte	0
+ 1328 0064 00       		.byte	0
+ 1329 0065 00       		.byte	0
+ 1330              		.section	.debug_aranges,"",%progbits
+ 1331 0000 14000000 		.4byte	0x14
+ 1332 0004 0200     		.2byte	0x2
+ 1333 0006 00000000 		.4byte	.Ldebug_info0
+ 1334 000a 04       		.byte	0x4
+ 1335 000b 00       		.byte	0
+ 1336 000c 0000     		.2byte	0
+ 1337 000e 0000     		.2byte	0
+ 1338 0010 00000000 		.4byte	0
+ 1339 0014 00000000 		.4byte	0
+ 1340              		.section	.debug_line,"",%progbits
+ 1341              	.Ldebug_line0:
+ 1342 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1342      02003701 
+ 1342      00000201 
+ 1342      FB0E0D00 
+ 1342      01010101 
+ 1343              	.LASF9:
+ 1344 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1344      6E74385F 
+ 1344      7400
+ 1345              	.LASF19:
+ 1346 000a 433A5C55 		.ascii	"C:\\Users\\crist\\OneDrive\\Escritorio\\Universidad"
+ 1346      73657273 
+ 1346      5C637269 
+ 1346      73745C4F 
+ 1346      6E654472 
+ 1347 0038 5C4C4153 		.ascii	"\\LASER\\Tesis\\Prueba_psoc\\Prueba1.cydsn\000"
+ 1347      45525C54 
+ 1347      65736973 
+ 1347      5C507275 
+ 1347      6562615F 
+ 1348              	.LASF16:
+ 1349 005f 63795F6D 		.ascii	"cy_metadata\000"
+ 1349      65746164 
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 25
+
+
+ 1349      61746100 
+ 1350              	.LASF1:
+ 1351 006b 756E7369 		.ascii	"unsigned char\000"
+ 1351      676E6564 
+ 1351      20636861 
+ 1351      7200
+ 1352              	.LASF17:
+ 1353 0079 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1353      43313120 
+ 1353      352E342E 
+ 1353      31203230 
+ 1353      31363036 
+ 1354 00ac 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1354      20726576 
+ 1354      6973696F 
+ 1354      6E203233 
+ 1354      37373135 
+ 1355 00df 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1355      66756E63 
+ 1355      74696F6E 
+ 1355      2D736563 
+ 1355      74696F6E 
+ 1356              	.LASF5:
+ 1357 0107 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1357      20756E73 
+ 1357      69676E65 
+ 1357      6420696E 
+ 1357      7400
+ 1358              	.LASF3:
+ 1359 0119 73686F72 		.ascii	"short unsigned int\000"
+ 1359      7420756E 
+ 1359      7369676E 
+ 1359      65642069 
+ 1359      6E7400
+ 1360              	.LASF13:
+ 1361 012c 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1361      6574615F 
+ 1361      63757374 
+ 1361      6E766C00 
+ 1362              	.LASF12:
+ 1363 013c 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1363      6574615F 
+ 1363      636F6E66 
+ 1363      69676563 
+ 1363      6300
+ 1364              	.LASF8:
+ 1365 014e 756E7369 		.ascii	"unsigned int\000"
+ 1365      676E6564 
+ 1365      20696E74 
+ 1365      00
+ 1366              	.LASF7:
+ 1367 015b 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1367      206C6F6E 
+ 1367      6720756E 
+ 1367      7369676E 
+ 1367      65642069 
+ 1368              	.LASF10:
+ARM GAS  C:\Users\crist\AppData\Local\Temp\ccDs2p04.s 			page 26
+
+
+ 1369 0172 75696E74 		.ascii	"uint8_t\000"
+ 1369      385F7400 
+ 1370              	.LASF15:
+ 1371 017a 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1371      6574615F 
+ 1371      666C6173 
+ 1371      6870726F 
+ 1371      74656374 
+ 1372              	.LASF14:
+ 1373 018f 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1373      6574615F 
+ 1373      776F6E76 
+ 1373      6C00
+ 1374              	.LASF11:
+ 1375 019d 73697A65 		.ascii	"sizetype\000"
+ 1375      74797065 
+ 1375      00
+ 1376              	.LASF6:
+ 1377 01a6 6C6F6E67 		.ascii	"long long int\000"
+ 1377      206C6F6E 
+ 1377      6720696E 
+ 1377      7400
+ 1378              	.LASF2:
+ 1379 01b4 73686F72 		.ascii	"short int\000"
+ 1379      7420696E 
+ 1379      7400
+ 1380              	.LASF4:
+ 1381 01be 6C6F6E67 		.ascii	"long int\000"
+ 1381      20696E74 
+ 1381      00
+ 1382              	.LASF0:
+ 1383 01c7 7369676E 		.ascii	"signed char\000"
+ 1383      65642063 
+ 1383      68617200 
+ 1384              	.LASF18:
+ 1385 01d3 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1385      72617465 
+ 1385      645F536F 
+ 1385      75726365 
+ 1385      5C50536F 
+ 1386              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
