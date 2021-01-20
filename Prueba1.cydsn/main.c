@@ -18,7 +18,18 @@ CY_ISR(InterruptRX)
     UART_1_PutChar(5);
     OUTS_Write(0);}
   if (dato=='1'){OUTS_Write(1);}
+  if (dato=='2'){
+    OUTS_Write(1);
+    CyDelay(1000);
+    OUTS_Write(0);
+    }
+  if (dato=='3'){
+    OUTS_Write(0);
+    CyDelay(1000);
+    OUTS_Write(1);
+    }
  }
+
 
 int main(void)
 {
