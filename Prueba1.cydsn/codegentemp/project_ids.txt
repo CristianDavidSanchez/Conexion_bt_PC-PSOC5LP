@@ -1,9 +1,6 @@
-C:\Users\crist\OneDrive\Escritorio\Universidad\2019-1\ComunicacionesDigitales\Codificador.cydsn\Codificador.cyprj|6feadc8b-65c9-4b5d-9227-700c575f7900
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|4fbc0691-fd66-4783-80c5-2cf668eb07f5
-C:\Users\crist\OneDrive\Documentos\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|869b57dd-98c5-4c46-8e66-6c2472417d63
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c5cace8a-b580-4cc2-86b5-6afc9057781c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5bc96c94-1c9e-4f5d-a042-7fd8191ef015
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1804032c-c843-4a80-85c0-da5e13ef7dfe
-C:\Users\crist\OneDrive\Escritorio\Universidad\2019-1\ComunicacionesDigitales\Codificador.cydsn\Codificador_SPI.cydsn\Codificador_SPI.cyprj|bf6eb5b3-3b55-4bc9-8724-93bbaee2e086
-C:\Users\crist\OneDrive\Escritorio\Universidad\2019-1\ComunicacionesDigitales\Codificador.cydsn\Decodificador.cydsn\Decodificador.cyprj|bb7c4ed9-e919-474f-b1a3-186610e298c9
-C:\Users\crist\OneDrive\Escritorio\Universidad\LASER\Tesis\Prueba_psoc\Prueba1.cydsn\Prueba1.cyprj|26fcf4eb-2e2a-4cb9-95d4-b4d22229eb31
+C:\Users\Ryzen\Desktop\Open_BCI\Psoc\Conexion_bt_PC-PSOC5LP\Prueba1.cydsn\Prueba1.cyprj|f5ccda77-73a5-4a13-b319-f159aa4247c4
+D:\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|3e5364fe-2be9-44d3-b441-7196348a9477
+C:\Users\Ryzen\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|c89a2513-eeea-4ddb-967c-711f80af7e77
+D:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|98d186c5-13b3-4244-b14a-4eff4ac8e8b1
+D:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|41325242-f2f4-4877-9a9a-0c3a9d73c28c
+D:\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|83f869e1-3d61-42d9-b2bc-793896a9703a
